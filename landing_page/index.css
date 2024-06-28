@@ -1,0 +1,177 @@
+body{
+    margin:0px;
+    box-sizing:border-box;
+}
+.container{
+    margin:0px;
+    padding:0px;
+
+
+}
+.request-button{
+    background-color:rgba(223, 77, 20, 0.687);
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    color:white;
+}
+.nav{
+    background-image:linear-gradient(to right,  rgb(227, 176, 82),rgb(232, 47, 78),pink);
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.landing-nav{
+    padding: 2px 2px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:60px;
+}
+.landing-logo-section{
+    display: flex;
+
+    align-items: center;
+    gap:10px;
+}
+.landing-logo{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+}
+.menus{
+    list-style-type:none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:15px;
+    font-size:22px;
+    font-style:italic;
+}
+#buy-now{
+    background-color: rgb(235, 209, 41);
+    padding:10px;
+}
+.landing-text{
+    font-size:24px;
+}
+.landing-image{
+    background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width:100%;height:340px;
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    
+}
+.icons-section{
+    background-image:linear-gradient(to right,  rgb(227, 176, 82),rgb(232, 47, 78),pink);
+    display: flex;
+    padding:10px ;
+   
+    justify-content:space-between;
+    align-items:center;
+    color:rgb(255, 255, 255);
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+   gap:4px;
+   align-items:center;
+   
+
+}
+.font-icon{
+    font-size:20px;
+    border:white;
+    border-radius:50px;
+    margin:10px;
+}
+.icons p{
+    width:10rem;
+}
+.about-section{
+    display: flex;
+    padding:10px ;
+   
+    justify-content:space-between;
+    align-items:center;
+}
+.about-heading{
+   
+   border-color:rgb(232, 47, 78),pink;
+   
+}
+.about-content{
+    align-self:start;
+    width:50%;
+    text-align:justify;
+}
+.about-image{
+    width:35%;
+    height:25%;
+    border-radius:50px;
+}
+.about-heading{
+    
+    border:3px solid rgb(214, 56, 83);
+    margin-left:30px;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    width:7rem;
+}
+.services-section{
+    background-image:url('https://media.istockphoto.com/id/121337097/photo/blue-water-splash-isolated.jpg?s=1024x1024&w=is&k=20&c=PvDtbwg3g7raW2u2odJSSQ1jsXyCfVI6UR5DW6rTDNI=');
+    background-size:cover;
+    opacity: .9;
+    background-color: transparent;
+    padding:10px;
+
+}
+.services-heading{
+    
+    border:3px solid rgb(214, 56, 83);
+    margin-left:30px;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    width:12rem;
+
+}
+.services-hr{
+    width:50%;
+    align-items:start;
+    font-size:3px;
+}
+.service-cards-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:90%;
+    opacity: 1.5;
+    padding: 2px 20px;
+}
+.service-card{
+    width:300px;
+    background-color: beige;
+    border-radius:20px;
+    padding-bottom:10px;
+    
+
+}
+.service-card img{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:10px;
+}
+.service-card button{
+    margin-left:30px;
+}
